@@ -2,6 +2,9 @@
     <string name="app_name">PRAC1</string>
     <string name="TOAST_text">TOAST</string>
     <string name="COUNT_Text">COUNT</string>
-    <string name="zero">0</string>
+    <string name="wrong">0</string>
     <string name="toast_message">KELLY_FANG 19WMD02251</string>
+    <string name="zero_text">0</string>
+    <string name="ZERO_text">zero</string>
+    <string name="RESET">reset</string>
 </resources>
