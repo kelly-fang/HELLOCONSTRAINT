@@ -3,6 +3,7 @@ package com.example.prac1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,15 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void zero(View view){
         if (mShowCount != null) {
+            reset.setBackgroundColor(Color.parseColor("#00ff00"));
             int mZero = 0;
             mShowCount.setText(Integer.toString(mZero));
             mCount = 0;
         }
     }
 
-    public Button getReset() {
-        return reset;
-    }
+    public Button getReset() { return reset; }
 
     public void setReset(Button reset) {
         this.reset = reset;
